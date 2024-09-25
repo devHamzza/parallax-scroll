@@ -3,7 +3,7 @@
 import { useScroll } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Card from "./Card";
-import Lenis from "@studio-freight/lenis";
+// import Lenis from "@studio-freight/lenis";
 
 const CustomSection = () => {
   const container = useRef(null);
@@ -12,16 +12,16 @@ const CustomSection = () => {
     offset: ["start start", "end end"],
   });
 
-  useEffect(() => {
-    const lenis = new Lenis();
+  // useEffect(() => {
+  //   const lenis = new Lenis();
 
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
+  //   function raf(time: any) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
 
-    requestAnimationFrame(raf);
-  });
+  //   requestAnimationFrame(raf);
+  // });
 
   return (
     <section ref={container} className=" bg-gray-900 relative">

@@ -25,7 +25,7 @@ const FlexCard = ({
           scale,
           //   top: `calc(-5vh + ${i * 25}px)`,
         }}
-        className="card flex items-center justify-center relative top-0 h-[500px] w-[200px] origin-top rounded-lg"
+        className="card flex items-center justify-center relative top-0 h-[250px] w-[200px] origin-top rounded-lg"
       >
         <h1 className="text-4xl font-bold">Card {i}</h1>
       </motion.div>

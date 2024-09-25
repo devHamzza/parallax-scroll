@@ -3,7 +3,7 @@
 import { useScroll } from "framer-motion";
 import { use, useEffect, useRef } from "react";
 import Card from "./Card";
-import Lenis from "@studio-freight/lenis";
+// import Lenis from "@studio-freight/lenis";
 import FlexCard from "./FlexCard";
 
 const FlexCards = () => {
@@ -13,16 +13,16 @@ const FlexCards = () => {
     offset: ["start end", "end end"],
   });
 
-  useEffect(() => {
-    const lenis = new Lenis();
+  // useEffect(() => {
+  //   const lenis = new Lenis();
 
-    function raf(time: any) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
+  //   function raf(time: any) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
 
-    requestAnimationFrame(raf);
-  });
+  //   requestAnimationFrame(raf);
+  // });
 
   return (
     <section

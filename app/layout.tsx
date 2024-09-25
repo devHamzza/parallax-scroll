@@ -2,8 +2,8 @@
 
 import localFont from "next/font/local";
 import "./globals.css";
-import ReactLenis from "lenis/react";
-import "lenis/dist/lenis.css";
+import SmoothScroll from "@/components/SmoothScroll";
+
 // import Lenis from "lenis";
 // import { useEffect } from "react";
 
@@ -47,7 +47,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
   );
