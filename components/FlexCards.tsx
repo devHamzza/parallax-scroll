@@ -1,8 +1,7 @@
 "use client";
 
 import { useScroll } from "framer-motion";
-import { use, useEffect, useRef } from "react";
-import Card from "./Card";
+import { useRef } from "react";
 // import Lenis from "@studio-freight/lenis";
 import FlexCard from "./FlexCard";
 
@@ -32,7 +31,7 @@ const FlexCards = () => {
       {["#3b8216", "#f97316", "#eab308", "#10b981"].map((n, i) => {
         const targetScale = 1 - (4 - i) * 0.05;
         const inputStart = 0.2 + i * (0.7 / 4);
-        const inputEnd = inputStart + (0.7 / 4);
+        const inputEnd = inputStart + 0.7 / 4;
         const outputEnd = inputEnd + 0.02;
 
         return (

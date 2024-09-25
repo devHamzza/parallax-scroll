@@ -1,6 +1,5 @@
 "use client";
-import { useTransform, motion, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { useTransform, motion, MotionValue } from "framer-motion";
 
 const Card = ({
   color,
@@ -10,23 +9,14 @@ const Card = ({
   i,
 }: {
   color: string;
-  progress: any;
-  range: any;
+  progress: MotionValue<number>;
+  range: number[];
   targetScale: number;
   i: number;
 }) => {
-  const container = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: container,
-    offset: ["start end", "start start"],
-  });
-
   const scale = useTransform(progress, range, [1, targetScale]);
   return (
-    <div
-      ref={container}
-      className="h-screen flex items-center justify-center sticky top-0"
-    >
+    <div className="h-screen flex items-center justify-center sticky top-0">
       <motion.div
         style={{
           backgroundColor: color,

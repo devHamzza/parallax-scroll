@@ -1,7 +1,7 @@
 "use client";
 
 import { useScroll } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import Card from "./Card";
 // import Lenis from "@studio-freight/lenis";
 

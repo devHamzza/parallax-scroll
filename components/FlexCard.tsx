@@ -1,5 +1,5 @@
 "use client";
-import { useTransform, motion, useSpring } from "framer-motion";
+import { useTransform, motion, useSpring, MotionValue } from "framer-motion";
 
 const FlexCard = ({
   color,
@@ -9,7 +9,7 @@ const FlexCard = ({
   i,
 }: {
   color: string;
-  progress: any;
+  progress: MotionValue<number>;
   inputRange: number[];
   outputRange: number[];
   targetScale: number;
