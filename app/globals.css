@@ -26,3 +26,125 @@ body {
   }
 }
 
+/*
+
+.description,
+.final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-height: 80vh;
+}
+
+.container {
+  width: 500%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.panel {
+  font-weight: 300;
+  width: 100%;
+}
+
+.blue {
+  background-color: #3883d8;
+}
+
+.red {
+  background-color: #cf3535;
+}
+
+.gray {
+  background-color: #777;
+}
+
+.purple {
+  background-color: #936;
+}
+
+.green {
+  background-color: #3c9;
+}
+
+.box {
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color: white;
+  border-radius: 8px;
+  color: #222;
+  font-weight: 700;
+  margin-left: 20px;
+  will-change: transform;
+}
+
+.box.active {
+  background-color: orange;
+  border: 2px solid white;
+}
+
+.codeBlock {
+  font-size: 20px;
+  text-align: left;
+  width: auto;
+  font-weight: normal;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  padding: 0.1rem;
+  background: #fff;
+  color: #222;
+  font-size: 1.5rem;
+}
+
+h1 code {
+  font-size: 1.7rem;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin: 10px auto;
+  animation: arrowBounce 2s infinite;
+}
+
+@keyframes arrowBounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  40% {
+    transform: translateY(-10px) rotate(45deg);
+  }
+
+  60% {
+    transform: translateY(-5px) rotate(45deg);
+  }
+} */

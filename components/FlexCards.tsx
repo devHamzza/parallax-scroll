@@ -26,7 +26,7 @@ const FlexCards = () => {
   return (
     <section
       ref={container}
-      className=" bg-slate-800 h-[1000vh] flex justify-center gap-10"
+      className=" bg-slate-800 h-[500vh] flex justify-center gap-10"
     >
       {["#3b8216", "#f97316", "#eab308", "#10b981"].map((n, i) => {
         const targetScale = 1 - (4 - i) * 0.05;

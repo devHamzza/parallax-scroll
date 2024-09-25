@@ -11,7 +11,7 @@ export default function Home() {
       <CustomSection />
       <FlexCards />
       <LastSection />
-      <GsapCards />
+      {/* <GsapCards /> */}
     </div>
   );
 }
